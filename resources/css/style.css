@@ -12,7 +12,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
+    background-color:rgb(224, 224, 224);
+    height: 100%;
 }
 
 .container {
@@ -83,7 +84,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -103,4 +103,44 @@ section.servizi ul {
 
 section.servizi ul li {
     margin-bottom: 10px;
+}
+
+/* CARD */
+
+.card-container{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: var(--background-color);
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-content {
+    margin-top: 10px;
+
+}
+
+.card-content p {
+    margin: 5px 0;
+}
+
+.card-content p strong {
+    font-weight: bold;
+}
+
+.card-content p.descrizione {
+    font-style: italic;
 }
