@@ -5,5 +5,6 @@
             <p>Il nostro team è qui per aiutarvi con le vostre questioni legali.</p>
         </div>
     </section>
+
 </x-Layout>
 

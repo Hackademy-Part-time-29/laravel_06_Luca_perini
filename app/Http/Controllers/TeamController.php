@@ -75,7 +75,7 @@ class TeamController extends Controller
     ];
 
     public function teamView(){
-        $title = "Studio Legale il Gabibbo";
+        $title = "Studio Legale";
         $team = $this->team;
         return view('team', compact('title'), compact('team'));
     }

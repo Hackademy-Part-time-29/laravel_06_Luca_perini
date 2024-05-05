@@ -12,7 +12,7 @@
     </header>
 
 {{$slot}}
-
+<x-ScopriAnche></x-ScopriAnche>
 <x-footer></x-footer>
 </body>
 </html>
